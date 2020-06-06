@@ -1,0 +1,51 @@
+.hero__title {
+  font-size: 150px;
+  line-height: 140px;
+  color: $white-color;
+  font-family: $font-family-montserrat;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  margin-top: 0px;
+}
+
+.hero__title--diffont {
+  font-size: 72px;
+  color: $white-color;
+  font-family: $font-family-kaushan;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.hero__button {
+  text-decoration: none;
+  width: 160px;
+  min-height: 40px;
+  font-size: 14px;
+  font-family: $font-family-montserrat;
+  font-weight: 700;
+  border: 3px solid $white-color;
+  border-radius: 1px;
+  color: $white-color;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-transform: uppercase;
+
+  -webkit-transition: border 200ms linear;
+
+  -o-transition: border 200ms linear;
+
+  transition: border 200ms linear;
+
+  &:hover,
+  &:focus {
+    border: none;
+  }
+}

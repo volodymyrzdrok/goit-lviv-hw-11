@@ -1,0 +1,26 @@
+.logo {
+  font-size: 30px;
+  color: $white-color;
+  font-family: $font-family-montserrat;
+  font-weight: 700;
+  text-decoration: none;
+  letter-spacing: -1px;
+  cursor: pointer;
+
+  -webkit-transition: color 200ms linear;
+
+  -o-transition: color 200ms linear;
+
+  transition: color 200ms linear;
+  -webkit-transition: -webkit-filter 200ms linear;
+  transition: -webkit-filter 200ms linear;
+  -o-transition: filter 200ms linear;
+  transition: filter 200ms linear;
+  transition: filter 200ms linear, -webkit-filter 200ms linear;
+
+  &:hover {
+    -webkit-filter: drop-shadow(1px 1.732px 2.5px rgba(0, 0, 0, 0.19));
+    filter: drop-shadow(1px 1.732px 2.5px rgba(0, 0, 0, 0.19));
+    color: $text-color-button;
+  }
+}
