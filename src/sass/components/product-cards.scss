@@ -16,29 +16,7 @@
   }
 }
 
-.product-card__fon {
-  background-color: $text-color-nav;
-  margin-bottom: 30px;
-  position: relative;
-  z-index: 100;
-}
-
-.product-card:hover .product-card__image {
-  -webkit-transform: translate(-3%, -2.5%);
-  -ms-transform: translate(-3%, -2.5%);
-  transform: translate(-3%, -2.5%);
-  -webkit-transition: -webkit-transform 200ms linear;
-  transition: -webkit-transform 200ms linear;
-  -o-transition: transform 200ms linear;
-  transition: transform 200ms linear;
-  transition: transform 200ms linear, -webkit-transform 200ms linear;
-}
-
-.product-card:hover .product-card__overlay {
-  opacity: 1;
-  -webkit-transform: translate(-3%, -2.5%);
-  -ms-transform: translate(-3%, -2.5%);
-  transform: translate(-3%, -2.5%);
+.product-card__image {
   -webkit-transition: -webkit-transform 200ms linear;
   transition: -webkit-transform 200ms linear;
   -o-transition: transform 200ms linear;
@@ -70,9 +48,7 @@
     rgba(243, 129, 129, 0.7)
   );
   opacity: 0;
-  -webkit-transition: opacity 200ms linear;
-  -o-transition: opacity 200ms linear;
-  transition: opacity 200ms linear;
+
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -82,6 +58,31 @@
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+.product-card:hover .product-card__image {
+  -webkit-transform: translate(-12px, -14px);
+  -ms-transform: translate(-12px, -14px);
+  transform: translate(-12px, -14px);
+}
+
+.product-card:hover .product-card__overlay {
+  opacity: 1;
+  -webkit-transform: translate(-12px, -14px);
+  -ms-transform: translate(-12px, -14px);
+  transform: translate(-12px, -14px);
+  -webkit-transition: -webkit-transform 200ms linear;
+  transition: -webkit-transform 200ms linear;
+  -o-transition: transform 200ms linear;
+  transition: transform 200ms linear;
+  transition: transform 200ms linear, -webkit-transform 200ms linear;
+}
+
+.product-card__fon {
+  background-color: $text-color-nav;
+  margin-bottom: 30px;
+  position: relative;
+  z-index: 100;
 }
 
 .product-card__title {
