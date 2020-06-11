@@ -26,15 +26,15 @@
   cursor: pointer;
   fill: $text-color-nav;
 
-  -webkit-transition: -webkit-filter 200ms linear;
+  -webkit-transition: -webkit-filter $transition;
 
-  transition: -webkit-filter 200ms linear;
+  transition: -webkit-filter $transition;
 
-  -o-transition: filter 200ms linear;
+  -o-transition: filter $transition;
 
-  transition: filter 200ms linear;
+  transition: filter $transition;
 
-  transition: filter 200ms linear, -webkit-filter 200ms linear;
+  transition: filter $transition, -webkit-filter $transition;
 
   &:hover {
     -webkit-filter: drop-shadow(1px 1.732px 2.5px rgba(0, 0, 0, 0.19));
@@ -46,7 +46,7 @@
   margin-top: 0px;
   font-size: 14px;
   color: $text-color-h;
-  font-family: $font-family-montserrat;
+  font-family: $ff-montserrat;
   font-weight: 500;
   margin-bottom: 18px;
   text-transform: uppercase;
@@ -57,13 +57,7 @@
   font-size: 15px;
   line-height: 24px;
   color: $text-color;
-  font-family: $font-family-roboto;
+  font-family: $ff-roboto;
   font-weight: 400;
   margin-bottom: 0px;
-}
-
-.post__text--center {
-  text-indent: 72px;
-  margin-bottom: 100px;
-  text-align: center;
 }

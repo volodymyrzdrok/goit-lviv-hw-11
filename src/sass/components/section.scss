@@ -5,7 +5,7 @@
 .section__title {
   font-size: 30px;
   color: $text-color-h;
-  font-family: $font-family-montserrat;
+  font-family: $ff-montserrat;
   font-weight: 700;
   text-align: center;
   margin-top: 0px;
@@ -17,7 +17,7 @@
 .section__title--diffont {
   display: inline-block;
   font-size: 24px;
-  font-family: $font-family-kaushan;
+  font-family: $ff-kaushan;
   margin-bottom: 17px;
   text-transform: none;
   font-weight: 400;
@@ -31,4 +31,16 @@
   background-color: $nav-hover-color;
   left: 570px;
   top: 114px;
+}
+
+.section-card__text {
+  margin-top: 0px;
+  font-size: 15px;
+  line-height: 24px;
+  color: $text-color;
+  font-family: $ff-roboto;
+  font-weight: 400;
+  text-indent: 72px;
+  margin-bottom: 100px;
+  text-align: center;
 }

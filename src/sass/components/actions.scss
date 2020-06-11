@@ -3,9 +3,9 @@
   display: -ms-flexbox;
   display: flex;
   opacity: 0;
-  -webkit-transition: opacity 200ms linear;
-  -o-transition: opacity 200ms linear;
-  transition: opacity 200ms linear;
+  -webkit-transition: opacity $transition;
+  -o-transition: opacity $transition;
+  transition: opacity $transition;
   cursor: pointer;
 }
 
@@ -30,9 +30,9 @@
   height: 56px;
   outline: 0.4px solid $nav-hover-color;
   background-color: $text-color-button;
-  -webkit-transition: background-color 200ms linear;
-  -o-transition: background-color 200ms linear;
-  transition: background-color 200ms linear;
+  -webkit-transition: background-color $transition;
+  -o-transition: background-color $transition;
+  transition: background-color $transition;
 
   &:hover,
   &:focus {
@@ -45,11 +45,11 @@
   height: 26px;
   fill: $nav-hover-color;
 
-  -webkit-transition: fill 200ms linear;
+  -webkit-transition: fill $transition;
 
-  -o-transition: fill 200ms linear;
+  -o-transition: fill $transition;
 
-  transition: fill 200ms linear;
+  transition: fill $transition;
 }
 
 .actions__button:hover .actions__button--icon {

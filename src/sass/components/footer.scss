@@ -7,14 +7,14 @@
   display: inline;
   font-size: 14px;
   color: $text-color-h;
-  font-family: $font-family-montserrat;
+  font-family: $ff-montserrat;
   font-weight: 400;
 }
 
 .footer__text--link {
   font-size: 14px;
   color: $nav-hover-color;
-  font-family: $font-family-montserrat;
+  font-family: $ff-montserrat;
   font-weight: 400;
   text-decoration: none;
 }
@@ -50,7 +50,7 @@
 
 .footer-form__input {
   color: rgb(51, 51, 51);
-  font-family: $font-family-roboto;
+  font-family: $ff-roboto;
   font-size: 15px;
   font-style: italic;
   line-height: 24px;
@@ -62,7 +62,7 @@
 .footer-form__btn {
   color: rgb(255, 255, 255);
   background-color: $text-color-nav;
-  font-family: $font-family-montserrat;
+  font-family: $ff-montserrat;
   font-size: 14px;
   font-weight: 700;
   border: none;

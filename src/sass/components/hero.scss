@@ -2,7 +2,7 @@
   font-size: 150px;
   line-height: 140px;
   color: $white-color;
-  font-family: $font-family-montserrat;
+  font-family: $ff-montserrat;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: -1px;
@@ -12,7 +12,7 @@
 .hero__sub-title {
   font-size: 72px;
   color: $white-color;
-  font-family: $font-family-kaushan;
+  font-family: $ff-kaushan;
   font-weight: 400;
   text-transform: capitalize;
 }
@@ -22,7 +22,7 @@
   width: 160px;
   min-height: 40px;
   font-size: 14px;
-  font-family: $font-family-montserrat;
+  font-family: $ff-montserrat;
   font-weight: 700;
   border: 3px solid $white-color;
   border-radius: 1px;
@@ -38,11 +38,11 @@
   align-items: center;
   text-transform: uppercase;
 
-  -webkit-transition: border 200ms linear;
+  -webkit-transition: border $transition;
 
-  -o-transition: border 200ms linear;
+  -o-transition: border $transition;
 
-  transition: border 200ms linear;
+  transition: border $transition;
 
   &:hover,
   &:focus {

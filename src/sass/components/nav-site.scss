@@ -19,7 +19,7 @@
   display: inline-block;
   font-size: 14px;
   color: $white-color;
-  font-family: $font-family-montserrat;
+  font-family: $ff-montserrat;
   position: relative;
   font-weight: 500;
   text-decoration: none;
@@ -27,11 +27,11 @@
   padding-top: 36px;
   padding-bottom: 30px;
 
-  -webkit-transition: color 200ms linear;
+  -webkit-transition: color $transition;
 
-  -o-transition: color 200ms linear;
+  -o-transition: color $transition;
 
-  transition: color 200ms linear;
+  transition: color $transition;
 
   &:hover,
   &:focus {
@@ -57,9 +57,9 @@
   left: 0px;
   bottom: 20px;
   opacity: 0;
-  -webkit-transition: opacity 200ms linear;
-  -o-transition: opacity 200ms linear;
-  transition: opacity 200ms linear;
+  -webkit-transition: opacity $transition;
+  -o-transition: opacity $transition;
+  transition: opacity $transition;
 }
 
 .nav-site__item:hover .nav-site__link::before {
